@@ -3,22 +3,15 @@
     <div>
       <Logo />
       <h1 class="title">RubyTwitterClone</h1>
-      <div class="links">
-        <NuxtLink to="/signup">
-          <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="button"
-          >
-            SignUp
-          </button>
-        </NuxtLink>
-      </div>
+      <div class="links">HOME</div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  middleware: 'auth',
+}
 </script>
 
 <style>
