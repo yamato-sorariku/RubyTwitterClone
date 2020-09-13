@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :microposts
+  has_many :statuss
 
   has_secure_password
   has_secure_token
