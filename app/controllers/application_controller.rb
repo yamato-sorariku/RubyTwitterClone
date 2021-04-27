@@ -5,6 +5,9 @@ class ApplicationController < ActionController::API
       @auth_user = User.find_by(token: token)
       @auth_user != nil ? true : false
       @auth_user != nil ? true : false
+      @auth_user != nil ? true : false
+      @auth_user != nil ? true : false
+      @auth_user != nil ? true : false
     end
   end
 end
