@@ -11,3 +11,7 @@ steps:
     environment:
       REVIEWDOG_GITHUB_API_TOKEN:
         from_secret: REVIEWDOG_GITHUB_API_TOKEN
+
+trigger:
+  ref:
+    - refs/pull/*/head
